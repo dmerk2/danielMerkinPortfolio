@@ -283,7 +283,8 @@ header .intro-text .intro-heading {
   font-size: 50px;
   line-height: 50px;
   margin-bottom: 25px;
-  color: black;
+  color: darkgrey;
+  text-shadow: 2px 2px 3px darkred;
 }
 
 @media (min-width:768px) {
