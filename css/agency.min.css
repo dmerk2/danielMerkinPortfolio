@@ -262,7 +262,7 @@ header {
 
 header .intro-text {
   padding-top: 100px;
-  padding-bottom: 50px
+  padding-bottom: 50px;
 }
 
 header .intro-text .intro-lead-in {
@@ -283,8 +283,36 @@ header .intro-text .intro-heading {
   font-size: 50px;
   line-height: 50px;
   margin-bottom: 25px;
-  color: darkgrey;
+  color: #0a2b38;
   text-shadow: 2px 2px 3px darkred;
+  -webkit-animation: colorchange 20s infinite alternate;
+}
+
+@-webkit-keyframes colorchange {
+  0% {
+    color: #0a2b38;
+    text-shadow: 2px 2px 4px aqua;
+  }
+  20% {
+    color: darkred;
+    text-shadow: 2px 2px 4px forestgreen;
+  }
+  40% {
+    color: navy;
+    text-shadow: 2px 2px 4px black;
+  }
+  60% {
+    color: #0a2b38;
+    text-shadow: 2px 2px 4px orange;
+  }
+  80% {
+    color: red;
+    text-shadow: 2px 2px 4px yellow;
+  }
+  100% {
+    color: #0a2b38;
+    text-shadow: 2px 2px 4px darkred;
+  }
 }
 
 @media (min-width:768px) {
