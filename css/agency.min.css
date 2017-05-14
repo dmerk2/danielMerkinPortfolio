@@ -408,9 +408,13 @@ section h3.section-subheading {
   margin: 0
 }
 
+footer {
+  background-color: #eee;
+}
+
 footer span.copyright,
 footer ul.quicklinks {
-  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 #portfolio * {
