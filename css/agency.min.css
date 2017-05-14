@@ -248,6 +248,16 @@ fieldset[disabled] .btn-xl:hover {
   }
 }
 
+div.intro-lead-in#headerBottomText:hover {
+  color: black;
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+div.intro-heading#headerTopText:hover {
+  font-size: 8em;
+}
+
 header {
   background-image: url(../img/header-bg.jpg);
   background-repeat: no-repeat;
@@ -272,13 +282,47 @@ header .intro-text .intro-lead-in {
   font-size: 22px;
   line-height: 22px;
   margin-bottom: 25px;
-  animation: blur 1s ease-out infinite;
-  color: black;
+  animation: blur .75s ease-out infinite;
+  color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+
+a[type=button]:hover {
+  animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+  background: darkorange;
+  color: white;
+  padding: 2rem;
+  border-radius: 30%;
+  opacity: .9;
+}
+
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
 }
 
 @keyframes blur {
   from {
-    text-shadow: 2px 2px 3px red;
+    text-shadow: 2px 3px 4px green;
   }
 }
 
@@ -298,24 +342,28 @@ header .intro-text .intro-heading {
     color: #0a2b38;
     text-shadow: 2px 2px 4px aqua;
   }
-  20% {
+  10% {
     color: darkred;
     text-shadow: 2px 2px 4px forestgreen;
   }
-  40% {
+  20% {
     color: navy;
     text-shadow: 2px 2px 4px lightgreen;
   }
-  60% {
+  40% {
     color: #0a2b38;
     text-shadow: 2px 2px 4px orange;
   }
-  80% {
+  60% {
     color: red;
     text-shadow: 2px 2px 4px yellow;
   }
-  100% {
+  80% {
     color: #0a2b38;
+    text-shadow: 2px 2px 4px darkred;
+  }
+  100% {
+    color: brown;
     text-shadow: 2px 2px 4px darkred;
   }
 }
