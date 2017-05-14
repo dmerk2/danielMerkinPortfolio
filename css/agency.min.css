@@ -272,8 +272,14 @@ header .intro-text .intro-lead-in {
   font-size: 22px;
   line-height: 22px;
   margin-bottom: 25px;
+  animation: blur 1s ease-out infinite;
   color: black;
-  text-shadow: 2px 2px 3px #bf0f0f;
+}
+
+@keyframes blur {
+  from {
+    text-shadow: 2px 2px 3px red;
+  }
 }
 
 header .intro-text .intro-heading {
@@ -284,7 +290,6 @@ header .intro-text .intro-heading {
   line-height: 50px;
   margin-bottom: 25px;
   color: #0a2b38;
-  text-shadow: 2px 2px 3px darkred;
   -webkit-animation: colorchange 20s infinite alternate;
 }
 
@@ -299,7 +304,7 @@ header .intro-text .intro-heading {
   }
   40% {
     color: navy;
-    text-shadow: 2px 2px 4px black;
+    text-shadow: 2px 2px 4px lightgreen;
   }
   60% {
     color: #0a2b38;
