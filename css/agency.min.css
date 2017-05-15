@@ -423,18 +423,13 @@ img#integrity.img-responsive {
   margin: 0 auto;
   position: relative;
   display: block;
-  width: 300px;
+  width: 350px;
   height: 250px;
   margin-bottom: 2em;
 }
 
 div.timeline-body.row {
   color: darkorange;
-}
-
-h2.section-heading#devProcess {
-  margin-bottom: 3em !important;
-  color: #edbc2a;
 }
 
 @media (min-width:768px) {
@@ -472,7 +467,7 @@ section {
 section h2.section-heading {
   font-size: 40px;
   margin-top: 0;
-  margin-bottom: 15px
+  margin-bottom: 2em;
 }
 
 section h3.section-subheading {
