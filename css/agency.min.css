@@ -273,13 +273,12 @@ fieldset[disabled] .btn-xl:hover {
 }
 
 div.intro-lead-in#headerBottomText:hover {
-  color: black;
-  font-size: 50px;
+  color: white;
   text-decoration: underline;
 }
 
 div.intro-heading#headerTopText:hover {
-  font-size: 8em;
+  font-size: 6.5em;
 }
 
 
@@ -388,7 +387,7 @@ input[type=button]:hover {
 
 @keyframes blur {
   from {
-    text-shadow: 4px 4px 4px darkgreen;
+    text-shadow: 4px 4px 4px lightgreen;
   }
 }
 
@@ -400,41 +399,41 @@ header .intro-text .intro-heading {
   line-height: 50px;
   margin-bottom: 25px;
   color: #0a2b38;
-  -webkit-animation: colorchange 15s infinite alternate;
+  -webkit-animation: colorchange 10s infinite alternate;
 }
 
 @-webkit-keyframes colorchange {
   0% {
     color: #0a2b38;
-    text-shadow: 2px 2px 4px aqua;
+    text-shadow: 3px 3px 4px aqua;
   }
   10% {
     color: darkred;
-    text-shadow: 2px 2px 4px forestgreen;
+    text-shadow: 3px 3px 4px forestgreen;
   }
   20% {
     color: navy;
-    text-shadow: 2px 2px 4px lightgreen;
+    text-shadow: 3px 3px 4px lightgreen;
   }
   40% {
     color: #0a2b38;
-    text-shadow: 2px 2px 4px orange;
+    text-shadow: 3px 3px 4px orange;
   }
   50% {
     color: yellow;
-    text-shadow: 2px 2px 4px red;
+    text-shadow: 3px 3px 4px red;
   }
   60% {
     color: red;
-    text-shadow: 2px 2px 4px yellow;
+    text-shadow: 3px 3px 4px yellow;
   }
   80% {
-    color: #0a2b38;
-    text-shadow: 2px 2px 4px darkorange;
+    color: aqua;
+    text-shadow: 3px 3px 4px darkorange;
   }
   100% {
     color: brown;
-    text-shadow: 2px 2px 4px darkred;
+    text-shadow: 3px 3px 4px darkred;
   }
 }
 
