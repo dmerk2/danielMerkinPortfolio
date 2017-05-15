@@ -4,6 +4,23 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
+.container {
+  position: relative;
+  text-align: center;
+}
+
+.container video {
+  position: relative;
+  z-index: 0;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
 .btn-primary.active,
 .btn-primary:active,
 .btn-xl.active,
@@ -265,7 +282,8 @@ div.intro-heading#headerTopText:hover {
   font-size: 8em;
 }
 
-header {
+
+/*header {
   background-image: url(../img/header-bg.jpg);
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -276,6 +294,8 @@ header {
   -o-background-size: cover;
   text-align: center;
 }
+
+*/
 
 header .intro-text {
   padding-top: 100px;
