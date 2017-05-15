@@ -41,6 +41,13 @@ a {
   color: #fed136
 }
 
+.text-primary,
+a h4:hover {
+  color: #a31531;
+  font-family: Kaushan Script, Arial;
+  font-size: 2em;
+}
+
 p {
   font-size: 14px;
   line-height: 1.75
@@ -361,7 +368,7 @@ input[type=button]:hover {
 
 @keyframes blur {
   from {
-    text-shadow: 2px 3px 4px green;
+    text-shadow: 4px 4px 4px darkgreen;
   }
 }
 
@@ -373,7 +380,7 @@ header .intro-text .intro-heading {
   line-height: 50px;
   margin-bottom: 25px;
   color: #0a2b38;
-  -webkit-animation: colorchange 20s infinite alternate;
+  -webkit-animation: colorchange 15s infinite alternate;
 }
 
 @-webkit-keyframes colorchange {
@@ -393,13 +400,17 @@ header .intro-text .intro-heading {
     color: #0a2b38;
     text-shadow: 2px 2px 4px orange;
   }
+  50% {
+    color: yellow;
+    text-shadow: 2px 2px 4px red;
+  }
   60% {
     color: red;
     text-shadow: 2px 2px 4px yellow;
   }
   80% {
     color: #0a2b38;
-    text-shadow: 2px 2px 4px darkred;
+    text-shadow: 2px 2px 4px darkorange;
   }
   100% {
     color: brown;
